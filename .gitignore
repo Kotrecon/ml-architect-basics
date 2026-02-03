@@ -1,0 +1,28 @@
+# В терминале (из папки ml-architect-basics)
+echo "# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+
+# Логи и БД
+*.log
+*.sqlite3
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы с кириллицей (чтобы избежать проблем)
+*[А-яа-я].md" > .gitignore
+
+# Доп файлы
+_drafts/
+february_plan.md
+Project structure.md
